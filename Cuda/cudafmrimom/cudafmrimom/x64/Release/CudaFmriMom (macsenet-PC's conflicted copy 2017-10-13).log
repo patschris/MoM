@@ -1,0 +1,50 @@
+﻿  Compiling CUDA source file clean.cu...
+  Compiling CUDA source file cuLibs.cu...
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\clean.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\clean.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\cuLibs.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\cuLibs.cu" 
+  Compiling CUDA source file primaryFunctions.cu...
+  Compiling CUDA source file main.cu...
+  Compiling CUDA source file matCode.cu...
+  Compiling CUDA source file kernel.cu...
+  Compiling CUDA source file Globals.cu...
+  Compiling CUDA source file reduction.cu...
+  Compiling CUDA source file timer.cu...
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\primaryFunctions.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\primaryFunctions.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\main.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\main.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\kernel.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\reduction.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\reduction.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\matCode.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\matCode.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\timer.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\timer.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\Globals.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\CudaFmriMom\Globals.cu" 
+  kernel.cu
+  reduction.cu
+  Globals.cu
+  clean.cu
+  cuLibs.cu
+  primaryFunctions.cu
+  matCode.cu
+  timer.cu
+  main.cu
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+reduction.cu.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'reduction.cu.obj' or at 'C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\vc140.pdb'; linking object as if no debug info
+matCode.cu.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'matCode.cu.obj' or at 'C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\vc140.pdb'; linking object as if no debug info
+kernel.cu.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'kernel.cu.obj' or at 'C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\vc140.pdb'; linking object as if no debug info
+Globals.cu.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'Globals.cu.obj' or at 'C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\vc140.pdb'; linking object as if no debug info
+errorTypes.cu.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'errorTypes.cu.obj' or at 'C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\vc140.pdb'; linking object as if no debug info
+cuLibs.cu.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'cuLibs.cu.obj' or at 'C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\vc140.pdb'; linking object as if no debug info
+clean.cu.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'clean.cu.obj' or at 'C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\vc140.pdb'; linking object as if no debug info
+  CudaFmriMom.vcxproj -> C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\CudaFmriMom.exe
+  CudaFmriMom.vcxproj -> C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\CudaFmriMom.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\CudaFmriMom\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

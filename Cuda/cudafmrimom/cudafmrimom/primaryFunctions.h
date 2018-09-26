@@ -1,0 +1,9 @@
+///////////////////////////////////////////////
+//       File: primaryFunctions.h            //
+///////////////////////////////////////////////
+#ifndef  __primaryFunctions__
+#define __primaryFunctions__
+
+void mom();
+
+#endif
