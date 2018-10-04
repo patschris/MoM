@@ -27,7 +27,7 @@ distance-measuring norm constraint.The starting point is, again, to split the di
 fixed any more; instead, it can vary in line with the constrained optimization cost. The simplified optimization task, adopted [here](https://www.researchgate.net/publication/309008892_Assisted_Dictionary_Learning_for_fMRI_Data_Analysis) is:
 (**Ď**,**Š**)=argmin<sub>D,S</sub>‖**X**-**DS**‖<sub>F</sub><sup>2</sup> <br/>
 
-As part of our thesis, we manage to accelarate this algorithm using GPU and parallel computing.
+As part of our thesis, we manage to accelarate this algorithm using GPU and parallel computing. 
 
 ## Code
 The code proposed from this paper is available [here](https://github.com/MorCTI/Attom-Assisted-DL), written in matlab. You can see the 
@@ -38,10 +38,10 @@ pseudocode in the image below.
 The goal is to rewrite the code using the GPU in order to improve the performance of the given code. We wrote two version of this code: 
 one written in CUDA and another written in Matlab using [GPU arrays](https://www.mathworks.com/help/distcomp/gpuarray.html).
 
-## CUDA
-
-## Matlab
+## Specs
+![specs](https://github.com/patschris/MoM/blob/master/specs.png)
 
 ## References
 [1] https://www.researchgate.net/publication/309008892_Assisted_Dictionary_Learning_for_fMRI_Data_Analysis<br/>
 [2] https://github.com/MorCTI/Attom-Assisted-DL
+[3] http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf
