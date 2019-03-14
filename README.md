@@ -43,5 +43,5 @@ one written in CUDA and another written in Matlab using [GPU arrays](https://www
 
 ## References
 [1] https://www.researchgate.net/publication/309008892_Assisted_Dictionary_Learning_for_fMRI_Data_Analysis<br/>
-[2] https://github.com/MorCTI/Attom-Assisted-DL
+[2] https://github.com/MorCTI/Attom-Assisted-DL<br/>
 [3] http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf
